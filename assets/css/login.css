@@ -1,0 +1,55 @@
+/* 添加背景图片 */
+html,
+body {
+  /* max-width: 100%; */
+  height: 100%;
+  background-image: url(/assets/images/login_bg.jpg);
+}
+
+/* 设置顶部logo */
+.layui-main {
+  /* position: relative; */
+  /* width: 100%;
+  height: 100%; */
+  padding-top: 15px;
+}
+
+/* 登录窗口 */
+.login {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 300px;
+  background-color: #fff;
+}
+
+/* 登录标题 */
+.title {
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+/* 窗口 */
+.loginWindow {
+  padding: 0 40px;
+}
+
+/* 按钮 */
+button[lay-submit] {
+  width: 100%;
+}
+
+/* 注册/登录 */
+.gotoregi,
+.gotologin {
+  float: right;
+}
+
+/* 注册区域 */
+#registered {
+  display: none;
+}
