@@ -49,7 +49,21 @@ button[lay-submit] {
   float: right;
 }
 
+.layui-input {
+  padding-left: 30px;
+}
+
 /* 注册区域 */
 #registered {
   display: none;
+}
+
+/* 登录区域 */
+.layui-form-item {
+  position: relative;
+}
+.layui-icon {
+  position: absolute;
+  left: 5px;
+  top: 10px;
 }

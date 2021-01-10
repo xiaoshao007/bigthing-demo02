@@ -89,7 +89,7 @@ $("#login").on("submit", function (e) {
         },
         function () {
           //do something
-          location.href = "/home/dashboard.html";
+          location.href = "/home/index.html";
         }
       );
       // console.log(result);

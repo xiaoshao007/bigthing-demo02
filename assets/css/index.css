@@ -1,0 +1,44 @@
+/* 内容主体区域 */
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* 字体图标 */
+.iconfont {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+/* 文字头像/头像 */
+.layui-nav .layui-nav-item .headPic {
+  display: flex;
+  align-items: center;
+}
+.headImg,
+.headText {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.headText {
+  text-align: center;
+  line-height: 40px;
+  background-color: #009a8a;
+}
+
+/* 侧边栏头像 */
+.headPic {
+  display: flex;
+  padding: 10px 0;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 文章列表/个人中心 的列表 */
+.layui-nav-child dd {
+  margin-left: 40px;
+}
