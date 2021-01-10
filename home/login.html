@@ -18,6 +18,7 @@
       <div class="title">
         <img src="/assets/images/login_title.png" alt="" />
       </div>
+
       <!-- 登录表单 -->
       <div class="loginWindow">
         <form class="layui-form" id="login" action="">
@@ -25,7 +26,7 @@
           <div class="layui-form-item">
             <input
               type="text"
-              name="title"
+              name="username"
               required
               lay-verify="required"
               placeholder="请输入用户名"
@@ -65,9 +66,9 @@
           <div class="layui-form-item">
             <input
               type="text"
-              name="title"
+              name="username"
               required
-              lay-verify="required"
+              lay-verify="required|username"
               placeholder="请输入用户名"
               autocomplete="off"
               class="layui-input"
@@ -76,10 +77,11 @@
           <!-- 密码 -->
           <div class="layui-form-item">
             <input
+              id="pwd"
               type="password"
               name="password"
               required
-              lay-verify="required"
+              lay-verify="required|pass"
               placeholder="请输入密码"
               autocomplete="off"
               class="layui-input"
@@ -89,10 +91,10 @@
           <div class="layui-form-item">
             <input
               type="password"
-              name="password"
+              name="resetPwd"
               required
-              lay-verify="required"
-              placeholder="请输入密码"
+              lay-verify="required|resetPwd"
+              placeholder="请再次输入密码"
               autocomplete="off"
               class="layui-input"
             />
